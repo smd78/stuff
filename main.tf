@@ -1,3 +1,5 @@
+/*main.tf*/
+
 resource "aws_vpc" "tfb" {
      cidr_block           = "${var.cidr}"
 	 enable_dns_hostnames = "${var.enable_dns_hostnames}"
